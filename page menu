@@ -17,7 +17,7 @@ YPE html>
             alt="logo"
             width="300px"
             height="auto"
-            src="https://files.menudino.com/cardapios/39837/logo.png">
+            src="https://th.bing.com/th/id/OIP.g7n3egGovap3I94NFH7WdAHaHb?rs=1&pid=ImgDetMain">
         </div>
         <div class="wrap-p">
             <p onclick="window.location.href='../cardapio/page.html'">CARDAPIO</p>
