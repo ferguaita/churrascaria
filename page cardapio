@@ -1,0 +1,93 @@
+YPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>cardapio</title>
+</head>
+<body>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button onclick="window.location.href='../menu/page.html'" type="button" class="btn btn-primary">menu</button>
+        <button onclick="window.location.href='../cardapio/page.html'" type="button" class="btn btn-primary">cardapio</button>
+        <button onclick= "window.location.href='../pedido/pedido/page.html'" type="button" class="btn btn-primary">pedido</button>
+      </div>
+    <h1>CARDAPIO</h1>
+    <h2>PRATOS</h2>
+    <div class="wrap-cards">
+     <div class="card" style="width: 18rem;">
+         <img src="https://espetinhodesucesso.com.br/wp-content/uploads/2023/04/qual-melhor-costela-para-churrasco.jpg" class="card-img-top" alt="prato 1" width="200" height="200">
+         <div class="card-body">
+           <h5 class="card-title">Costela
+           </h5>
+           <p class="card-text">R$ 78,90</p>
+         </div>
+       </div>
+       <div class="card" style="width: 18rem;">
+         <img src="https://minervafoods.com/wp-content/uploads/2022/12/grilled_beef_steaks_with_spices_on_wooden_cutting_board-1.jpg" class="card-img-top" alt="prato 2" width="200" height="200">
+         <div class="card-body">
+           <h5 class="card-title">File mignon</h5>
+           <p class="card-text">R$ 82,99</p>
+         </div>
+       </div>
+       <div class="card" style="width: 18rem;">
+         <img src="https://www.cenariomt.com.br/wp-content/uploads/2023/10/como-fazer-picanha-no-forno-1600x900.jpg" class="card-img-top" alt="prato 3" width="200" height="200">
+         <div class="card-body">
+           <h5 class="card-title">Picanha</h5>
+           <p class="card-text">R$ 98,90</p>
+         </div>
+       </div>
+    </div>
+    <h2>BEBIDAS</h2>
+    <div class="wrap-cards">
+        <div class="card" style="width: 18rem;">
+            <img src="https://i0.wp.com/revistaatencao.com.br/wp-content/uploads/2021/04/CAIPIRINHA.jpeg?fit=1920%2C1080&ssl=1" class="card-img-top" alt="drink 1" width="200" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Caipirinhas</h5>
+              <p class="card-text">R$22,00</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://www.academiaassai.com.br/sites/default/files/sucos_naturais_capa.jpg" class="card-img-top" alt="drink 2" width="200" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Sucos naturais</h5>
+              <p class="card-text">R$14,00</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://s2.glbimg.com/p7TA-OFB-oFkY85v3NT62FC_Wr8=/620x455/e.glbimg.com/og/ed/f/original/2020/08/06/dia_da_cerveja.jpg" class="card-img-top" alt="drink 3" width="200" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Cervejas</h5>
+              <p class="card-text">R$11,90</p>
+            </div>
+          </div>
+       </div>
+       <h2>SOBREMESAS</h2>
+       <div class="wrap-cards">
+        <div class="card" style="width: 18rem;">
+            <img src="https://img.freepik.com/fotos-premium/abacaxi-assado-com-bordas-caramelizadas-na-grelha_419341-106367.jpg" class="card-img-top" alt="sobre 1" width="200" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Abacaxi assado</h5>
+              <p class="card-text">R$9,50</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://receitinhas.com.br/wp-content/uploads/2023/07/fondue-de-chocolate-com-frutas.jpg" class="card-img-top" alt="sobre 2" width="200" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Frutas c/ chocolate</h5>
+              <p class="card-text">R$17,00</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="https://veja.abril.com.br/wp-content/uploads/2017/09/petit-gacc82teau-flickr-creative-commons-divulgaccca7acc83o.jpg?quality=90&strip=info&w=1024&resize=1200,800" class="card-img-top" alt="sobre 3" width="200" height="200">
+            <div class="card-body">
+              <h5 class="card-title">Petit Gateau</h5>
+              <p class="card-text">R$28,99</p>
+            </div>
+          </div>
+       </div>
+</body>
+</html>
